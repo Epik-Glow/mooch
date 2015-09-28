@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Mooch",
+    "description": "Share your account securely with people you trust",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_icon": "icon_cookie.png",
+        "default_popup": "mooch.html",
+        "default_title": "Mooch"
+    },
+    "permissions": [
+        "activeTab",
+        "cookies",
+        "declarativeContent",
+        "<all_urls>"
+    ]
+}
+

@@ -1,0 +1,40 @@
+body {
+  width: 300px;
+}
+
+button, h1, h2, h3, h4, h5, h6, p { 
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+button, input {
+  display: block;
+  margin: 0.25em auto;
+  width: 100px;
+}
+
+/* Title bar */
+#titlebar {
+  display: inline-block;
+  background-color: rgb(52, 152, 219);
+  font-size: 1.25em;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#logoutButton {
+  float: right;
+  margin-top: 1.5em;
+}
+
+/* Content */
+#content {
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+#content * {
+  margin: 0.25em auto;
+  width: 75%;
+}
+
